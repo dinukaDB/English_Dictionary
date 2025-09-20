@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import "./App.css";
 import ListDetails from "./Components/ListDetails";
 import { MdSearch } from "react-icons/md";

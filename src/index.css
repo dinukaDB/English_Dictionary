@@ -39,7 +39,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #f5efef;
+  background-color: #212a81;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -57,8 +57,13 @@ input {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #f5efef;
+  font-family: inherit;;
+  background-color: #646cff;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+input::placeholder {
+  color: #080606; /* change this to your desired color */
+  opacity: 1;  /* ensures color isn’t faded */
 }
